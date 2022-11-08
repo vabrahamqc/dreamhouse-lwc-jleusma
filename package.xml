@@ -6,10 +6,13 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Lead.NumberofLocations__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>InternationalEscalations</members>
-        <members>InternationalLeads</members>
-        <members>InternationalPlatinumGold</members>
-        <members>InternationalSilverBronze</members>
         <name>Queue</name>
     </types>
     <version>55.0</version>
