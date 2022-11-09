@@ -2,8 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>InternationalEscalations</members>
-        <members>InternationalSilverBronze</members>
-        <members>PartnerRelations</members>
+        <members>InternationalLeads</members>
         <name>Queue</name>
     </types>
     <version>55.0</version>
