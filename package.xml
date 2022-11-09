@@ -3,6 +3,7 @@
     <types>
         <members>InternationalLeads</members>
         <members>InternationalPlatinumGold</members>
+        <members>InternationalSilverBronze</members>
         <name>Queue</name>
     </types>
     <version>55.0</version>
