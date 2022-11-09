@@ -5,8 +5,7 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>InternationalPlatinumGold</members>
-        <members>InternationalSilverBronze</members>
+        <members>InternationalEscalations</members>
         <name>Queue</name>
     </types>
     <version>55.0</version>
