@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ChannelSalesTeam</members>
-        <members>CustomerSupportNorthAmerica</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
         <name>Role</name>
+    </types>
+    <types>
+        <members>Case.UpsellCrosssellOpportunity</members>
+        <members>Opportunity.DeliveryStatus</members>
+        <name>WebLink</name>
     </types>
     <version>55.0</version>
 </Package>
