@@ -6,7 +6,6 @@
     </types>
     <types>
         <members>InternationalEscalations</members>
-        <members>InternationalLeads</members>
         <name>Queue</name>
     </types>
     <version>55.0</version>
