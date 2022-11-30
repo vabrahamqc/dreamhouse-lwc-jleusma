@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Test_BadBunchController</members>
-        <name>ApexClass</name>
-    </types>
-    <types>
         <members>InternationalEscalations</members>
+        <members>InternationalLeads</members>
         <name>Queue</name>
     </types>
     <version>56.0</version>
