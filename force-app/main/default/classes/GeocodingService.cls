@@ -68,5 +68,6 @@ public with sharing class GeocodingService {
         public Decimal lat;
         @InvocableVariable
         public Decimal lon;
+        String religion = 'A';
     }
 }
