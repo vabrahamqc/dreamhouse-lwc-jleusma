@@ -61,6 +61,7 @@ public with sharing class GeocodingService {
         public String country;
         @InvocableVariable
         public String postalcode;
+
     }
 
     public class Coordinates {
