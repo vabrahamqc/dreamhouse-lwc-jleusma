@@ -44,7 +44,6 @@ public with sharing class GeocodingService {
                     coords = deserializedCoords[0];
                 }
             }
-
             computedCoordinates.add(coords);
         }
         return computedCoordinates;
