@@ -118,4 +118,8 @@ private class TestPropertyController {
         System.assertEquals(1, items.size());
         System.assertEquals(MOCK_PICTURE_NAME, items[0].Title);
     }
+
+    public void test1(String t1) {
+        Database.query('SELECT Id FROM Account' + t1);
+    }
 }
