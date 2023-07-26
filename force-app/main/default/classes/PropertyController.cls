@@ -112,8 +112,4 @@ public with sharing class PropertyController {
             ORDER BY CreatedDate
         ];
     }
-
-    public void test(){
-        
-    }
 }
