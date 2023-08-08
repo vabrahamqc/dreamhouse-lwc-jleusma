@@ -112,4 +112,11 @@ public with sharing class PropertyController {
             ORDER BY CreatedDate
         ];
     }
+
+    /**
+     * @description : return 3
+     */
+    public Integer  test1(){
+        return 3;
+    }
 }
