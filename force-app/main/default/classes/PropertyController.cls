@@ -93,7 +93,6 @@ public with sharing class PropertyController {
                 AND ContentDocument.FileType IN ('PNG', 'JPG', 'GIF')
             WITH SECURITY_ENFORCED
         ];
-
         if (links.isEmpty()) {
             return null;
         }
