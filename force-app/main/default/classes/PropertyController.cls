@@ -93,7 +93,6 @@ public with sharing class PropertyController {
                 AND ContentDocument.FileType IN ('PNG', 'JPG', 'GIF')
             WITH SECURITY_ENFORCED
         ];
-
         if (links.isEmpty()) {
             return null;
         }
@@ -103,6 +102,7 @@ public with sharing class PropertyController {
         for (ContentDocumentLink link : links) {
             contentIds.add(link.ContentDocumentId);
         }
+
 
         return [
             SELECT Id, Title
