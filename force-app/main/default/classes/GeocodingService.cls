@@ -1,3 +1,4 @@
+// test
 public with sharing class GeocodingService {
     private static final String BASE_URL = 'https://nominatim.openstreetmap.org/search?format=json';
 
@@ -18,6 +19,7 @@ public with sharing class GeocodingService {
             geocodingUrl += (String.isNotBlank(address.state))
                 ? '&state=' + address.state
                 : '';
+
             geocodingUrl += (String.isNotBlank(address.country))
                 ? '&country=' + address.country
                 : '';
