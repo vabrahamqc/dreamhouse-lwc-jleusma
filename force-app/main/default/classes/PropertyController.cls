@@ -104,6 +104,7 @@ public with sharing class PropertyController {
             contentIds.add(link.ContentDocumentId);
         }
 
+
         return [
             SELECT Id, Title
             FROM ContentVersion
