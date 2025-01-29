@@ -71,6 +71,7 @@ private class TestPropertyController {
         }
     }
 
+
     @isTest
     static void testGetPicturesNoResults() {
         Property__c property = new Property__c(Name = 'Name');
